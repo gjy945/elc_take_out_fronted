@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "uni-notice-bar": "/uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar",
+    "z-swiper": "/uni_modules/zebra-swiper/components/z-swiper/z-swiper",
+    "z-swiper-item": "/uni_modules/zebra-swiper/components/z-swiper-item/z-swiper-item",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}

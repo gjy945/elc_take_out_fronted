@@ -1,0 +1,1 @@
+<view class="navbar" style="{{$root.s0}}"><view class="logo"><u-icon vue-id="8628833c-1" name="arrow-left" data-event-opts="{{[['^click',[['handleBack']]]]}}" bind:click="__e" bind:__l="__l"></u-icon><text class="logo-title">{{title}}</text><text class="logo-text">{{text}}</text></view></view>

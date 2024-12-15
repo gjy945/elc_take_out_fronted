@@ -1,0 +1,149 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				// "enablePullDownRefresh": true, //开启下拉刷新 设置参数为true
+				"onReachBottomDistance": 50 //距离底部多远时触发 单位为px
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/restaurantInfo/restaurantInfo",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/setting/setting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/address-path/address-path",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/orderDetailPay/orderDetailPay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/pay/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "外卖",
+		"navigationBarBackgroundColor": "#ffcc33",
+		"backgroundColor": "#ffcc33",
+		//自定义导航栏
+		"navigationStyle": "custom"
+	},
+
+	//底部导航
+	"tabBar": {
+		//文本颜色
+		"color": "rgb(153,153,153)",
+		//选中演示
+		"selectedColor": "rgb(255,165,0)",
+		//背景色
+		"backgroundColor": "#fff",
+		"list": [{
+				//底部图标默认
+				"iconPath": "static/baseHome/home.png",
+				//选中之后显示的图标
+				"selectedIconPath": "static/baseHome/home.png",
+				"text": "首页",
+				"pagePath": "pages/home/home"
+			},
+			// {
+			// 	"iconPath": "static/baseHome/cart.png",
+			// 	"selectedIconPath": "static/baseHome/cart.png",
+			// 	"text": "购物车",
+			// 	"pagePath": "pages/cart/cart"
+			// },
+			{
+				"iconPath": "static/baseHome/order.png",
+				"selectedIconPath": "static/baseHome/order.png",
+				"text": "订单",
+				"pagePath": "pages/order/order"
+			},
+			{
+				"iconPath": "static/baseHome/mine.png",
+				"selectedIconPath": "static/baseHome/mine.png",
+				"text": "我的",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-navbar": "/components/CustomNavbar/CustomNavbar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar"
+  }
+}

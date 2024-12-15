@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-navbar": "/components/CustomNavbar/CustomNavbar",
+    "u-search": "/uni_modules/uview-ui/components/u-search/u-search",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "u-rate": "/uni_modules/uview-ui/components/u-rate/u-rate"
+  }
+}

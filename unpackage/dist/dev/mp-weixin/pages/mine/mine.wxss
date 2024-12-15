@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* uni.scss */
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.my-header.data-v-dcbcfe34 {
+  width: 100%;
+  height: 350rpx;
+}
+.header-main.data-v-dcbcfe34 {
+  position: relative;
+  top: 120rpx;
+}
+.header-config.data-v-dcbcfe34 {
+  position: absolute;
+  left: 40rpx;
+  top: -35rpx;
+}
+.header-logo.data-v-dcbcfe34 {
+  position: absolute;
+  left: 50%;
+  margin-left: -60rpx;
+  width: 220rpx;
+}
+.logo-img.data-v-dcbcfe34 {
+  width: 120rpx;
+  height: 120rpx;
+  border: 2rpx solid #cccccc;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.logo-name.data-v-dcbcfe34 {
+  color: #33333a;
+  font-weight: bold;
+}
+.order-title.data-v-dcbcfe34 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  font-family: 'Microsoft Yahei';
+  font-size: 35rpx;
+}
+.order-list.data-v-dcbcfe34 {
+  padding: 20rpx;
+  display: flex;
+}
+.order-item.data-v-dcbcfe34 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35rpx;
+}
+.order-img.data-v-dcbcfe34 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.my-content.data-v-dcbcfe34 {
+  margin: 20rpx 0;
+  padding: 0 20rpx;
+}
+.my-content-item.data-v-dcbcfe34 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+  border-bottom: 2px solid #f0f0f0;
+  font-family: 'Microsoft Yahei';
+  font-size: 32rpx;
+}
+.my-content-item.data-v-dcbcfe34:last-child {
+  border-bottom: none;
+}
+.my-content-item-text.data-v-dcbcfe34 {
+  margin-left: 20rpx;
+  margin-right: auto;
+}
+.customer.data-v-dcbcfe34 {
+  text-align: center;
+  padding: 15rpx 60rpx;
+  font-family: 'Microsoft Yahei';
+  color: #ffcf66;
+  font-size: 32rpx;
+  border-top: 40rpx solid #f0f0f0;
+}
+.service.data-v-dcbcfe34 {
+  padding: 10rpx 60rpx;
+  background-color: #f0f0f0;
+  text-align: center;
+  font-family: 'Microsoft Yahei';
+  font-size: 24rpx;
+  color: #c6c6c6;
+}
+

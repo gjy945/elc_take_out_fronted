@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/cart/cart",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/restaurantInfo/restaurantInfo",
+    "pages/login/login",
+    "pages/setting/setting",
+    "pages/address/address",
+    "pages/address-path/address-path",
+    "pages/search/search",
+    "pages/orderDetailPay/orderDetailPay",
+    "pages/pay/pay"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "外卖",
+    "navigationBarBackgroundColor": "#ffcc33",
+    "backgroundColor": "#ffcc33",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "rgb(153,153,153)",
+    "selectedColor": "rgb(255,165,0)",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "static/baseHome/home.png",
+        "selectedIconPath": "static/baseHome/home.png",
+        "text": "首页",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "iconPath": "static/baseHome/order.png",
+        "selectedIconPath": "static/baseHome/order.png",
+        "text": "订单",
+        "pagePath": "pages/order/order"
+      },
+      {
+        "iconPath": "static/baseHome/mine.png",
+        "selectedIconPath": "static/baseHome/mine.png",
+        "text": "我的",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置显示距离最近的店铺"
+    }
+  },
+  "usingComponents": {}
+}

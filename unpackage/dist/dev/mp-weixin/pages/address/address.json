@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-navbar": "/components/CustomNavbar/CustomNavbar"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "element-ui": "^2.15.14",
+    "uview-ui": "^2.0.36",
+    "vant": "^2.13.2",
+    "vue-inset-loader": "^1.2.6"
+  }
+}
